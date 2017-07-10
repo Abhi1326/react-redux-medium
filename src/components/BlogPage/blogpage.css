@@ -1,0 +1,313 @@
+@import url(https://www.markmurray.co/codepen/entypostyle.css);
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Raleway);
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: #e8eaef;
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+}
+
+.content {
+    max-width: 800px;
+    margin: 5em auto;
+    font-size: 0.8em;
+    line-height: 2;
+    overflow: hidden;
+    background: white;
+    padding: 0 3em;
+    -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    font-family: "Merriweather", sans-serif;
+}
+.content img {
+    width: 130%;
+    height: auto;
+    position: relative;
+    left: -3em;
+}
+.content p {
+    margin: 1em 0;
+}
+.content p:first-of-type {
+    text-indent: 2em;
+}
+.content .post {
+    margin-bottom: 2em;
+}
+.content button {
+    display: inline-block;
+    padding: 1em 1.5em;
+    background: transparent;
+    border: 1px dashed #e74c3c;
+    color: #e74c3c;
+    cursor: pointer;
+    margin-top: -12px;
+}
+
+.content button:hover {
+    background: #e74c3c;
+    color: white;
+}
+.content h1 {
+    font-size: 2em;
+}
+.content ul {
+    text-align: right;
+    margin-top: 1em;
+}
+.content ul li {
+    display: inline;
+    margin: 0 1%;
+    color: #aaa;
+    cursor: pointer;
+    padding: 0.5em 0;
+}
+.content ul li:hover {
+    color: black;
+    border-bottom: 1px dashed #e74c3c;
+}
+.content ul li:before {
+    color: #e74c3c;
+    margin-right: 0.5em;
+}
+
+@media (max-width: 800px) {
+    li {
+        font-size: 0.9em;
+        padding: 2%;
+    }
+
+    .social li:not(:last-child) {
+        display: none;
+    }
+
+    .content {
+        margin: 5em 18px;
+    }
+    .content ul li {
+        display: inline;
+        margin: 0.25%;
+    }
+}
+
+
+/*blog comment section*/
+input, textarea {
+    outline: none;
+    border: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: "PT Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 1rem;
+    color: #555f77;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #ced2db;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #ced2db;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #ced2db;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #ced2db;
+}
+
+p {
+    line-height: 1.3125rem;
+}
+
+.comments {
+    margin: 2.5rem auto 0;
+    max-width: 80.75rem;
+    padding: 0 1.25rem;
+}
+
+.comment-wrap {
+    margin-bottom: 1.25rem;
+    display: table;
+    width: 100%;
+    min-height: 5.3125rem;
+}
+.comment-wrap1 {
+    margin-bottom: 1.25rem;
+    display: table;
+    width: 90%;
+    min-height: 5.3125rem;
+    margin-left: 78px;
+}
+
+.photo {
+    padding-top: 0.625rem;
+    display: table-cell;
+    width: 3.5rem;
+}
+.photo .avatar {
+    height: 2.25rem;
+    width: 2.25rem;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+.comment-block {
+    padding: 1rem;
+    background-color: #fff;
+    display: table-cell;
+    vertical-align: top;
+    border-radius: 0.1875rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+.comment-block textarea {
+    width: 100%;
+    resize: none;
+}
+
+.comment-text {
+    margin-bottom: 1.25rem;
+    font-size: 13px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.bottom-comment {
+    color: #acb4c2;
+    font-size: 0.875rem;
+}
+
+.comment-date {
+    float: left;
+}
+
+.comment-actions {
+    float: right;
+}
+.comment-actions li {
+    display: inline;
+    margin: -2px;
+    cursor: pointer;
+}
+.comment-actions li.complain {
+    padding-right: 0.75rem;
+    border-right: 1px solid #e1e5eb;
+}
+.comment-actions li.reply {
+    padding-left: 0.75rem;
+    padding-right: 0.125rem;
+    border-right: 1px solid #e1e5eb;
+}
+.heart_like {
+    padding-left: 0.150rem;
+    padding-right: 0.200rem;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.heart_unlike {
+    padding-left: 0.150rem;
+    padding-right: 0.200rem;
+    margin-left: 5px;
+    font-size: 14px;
+    color: red;
+}
+
+.comment-actions li:hover {
+    color: #0095ff;
+}
+
+.bngdImage{
+
+    width: 100%;
+    height: 260px;
+    box-shadow: -2px 5px 5px #888888;
+
+}
+
+.shift_content{
+    margin-top: -87px;
+    box-shadow: 0px 3px 15px #888888;
+}
+
+.icon_change{
+    font-size: 22px;
+}
+
+.icon_change:hover{
+    -webkit-animation: jump 1.5s ease 0s infinite normal ;
+    animation: jump 1.5s ease 0s infinite normal ;
+}
+
+@-webkit-keyframes jump {
+    0%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    20%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    50%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    60%{
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+    80%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes jump {
+    0%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateY(-15px);
+    }
+    80%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.icon_shift{
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.shift_below{
+    margin-top: 35px;
+}
+

@@ -1,0 +1,28 @@
+body{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.heading_h3{
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.section_padding{
+  padding: 15px 100px;
+}
+
+body {
+  display: block;
+  visibility: visible;
+}
+
+.surface {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}

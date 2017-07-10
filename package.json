@@ -1,0 +1,32 @@
+{
+  "name": "react-redux-jest-auth",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "enzyme": "^2.9.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-infinite-scroll-component": "^2.4.0",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-scripts": "1.0.8",
+    "react-test-renderer": "^15.6.1",
+    "redux": "^3.7.1",
+    "redux-infinite-scroll": "^1.0.9",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
+    "react-addons-test-utils": "^15.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.2.3"
+  }
+}
